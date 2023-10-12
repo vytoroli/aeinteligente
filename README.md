@@ -17,3 +17,7 @@ Como rodar:
 - Para rodar os testes direto no terminal, digite "npx cypres run".
 
 Os comandos do teste está na pasta E2E > loginPage.cy.js
+
+Os testes também podem ser rodados através do GitHub através da ferramenta Actions git workflow.
+Prints:
+https://docs.google.com/document/d/1x2B9YXADFGw7A5TV-bMCybTUPaWRF1889KRNYBRT-6Y/edit?usp=sharing
