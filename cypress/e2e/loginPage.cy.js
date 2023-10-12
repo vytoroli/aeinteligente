@@ -7,7 +7,7 @@ describe('loginPage-Testes', () => {
   it('Teste de Login com Credenciais válidas',() =>{
     cy.get('input[id="inptUsuario"]').click().type('testeqa@teste.com');
     cy.get('input[id="inptSenha"]').click().type('senha010101');
-    //cy.get('button[id="btnEntrar"]').click(); 
+    //cy.get('button[id="btnEntrar"]').click(); (ficticio)
   })
 
   it('Teste de Login com Credenciais Inválidas',() =>{
